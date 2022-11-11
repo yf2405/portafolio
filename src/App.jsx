@@ -6,12 +6,15 @@ import './main.css';
 import { Button} from './Button';
 import { SkillsPages } from './SkillsPages';
 import { Footer } from "./Footer";
+import { Portafolio } from "./Portafolio";
+
+
 
 function App() {
 
 
     
-    const [change, setChange] = useState("ri-moon-line change-theme ri-sun-line");
+    const [change, setChange] = useState('ri-moon-line change-theme');
       
       
       
@@ -33,20 +36,21 @@ function App() {
         
        {/*Theme button*/}
       
-      
      
    
    
    
   
   return (
+    
     <>
     
-
+    
+<body  className={change === "ri-moon-line change-theme ri-sun-line" ? 'dark-theme' : ""}>
     <HashRouter >
   
     
-    <body  className={change === "ri-moon-line change-theme ri-sun-line" ? 'dark-theme' : ""}>
+    
   <header className="profile container">
 <i  onClick= {changeTheme}>  <i className= {change} > </i></i> 
      </header> 
@@ -61,12 +65,14 @@ function App() {
      
      <Route path="/Description" element={ <Descriptions/>}/>
      <Route path="/SkillsPages" element={ <SkillsPages/>}/>
+     <Route path="/Portafolio" element={ <Portafolio/>}/>
      
     </Routes>
     <Footer/>
-   </body>
+   
     </HashRouter>
- 
+ </body>
+
     </>
   );
 }

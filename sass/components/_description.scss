@@ -34,6 +34,13 @@
  .description{    
     width: auto;  
     
+    &__background{
+      height: 100%;
+      width: 50%;
+      border-radius: 12px;
+      background-color: var(--container-color);
+      box-shadow: -23px 12px 25px 5px hsla(var(--hue), var(--sat), var(--lig), 0.25);
+    }
 
 
      &__paragraph{

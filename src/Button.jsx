@@ -19,7 +19,9 @@ export const Button = () => {
      <NavLink  end className={( {isActive}) => isActive ? " buttonnav , filter-tab-active" : "buttonnav"}  to="/Description">Description</NavLink>
   
     
-      <NavLink  end className={({isActive}) => isActive ? " buttonnav , filter-tab-active" : "buttonnav"} to="/SkillsPages">SkillsPages</NavLink>
+      <NavLink  end className={({isActive}) => isActive ? " buttonnav , filter-tab-active" : "buttonnav"} to="/SkillsPages">SkillsPages</NavLink> 
+
+      <NavLink  end className={({isActive}) => isActive ? " buttonnav , filter-tab-active" : "buttonnav"} to="/Portafolio">Portafolio</NavLink>
     
     
   </ul>

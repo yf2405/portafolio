@@ -20,24 +20,14 @@
 
     .skills__box{
        
+        display: grid;
         justify-content: center;
         column-gap: 1rem;
-        width: 220px;
-        top: 2rem;
         padding: 1.15rem 1.5rem;
-        flex-direction: row;
+        grid-template-columns: auto  ;
     }
    
-    .skills__group{
-        align-items: center;
-        justify-content: center;
-        column-gap: 1rem;
-        width: 220px;
-        top: 2rem;
-        padding: 1.15rem 1.5rem;
-        flex-direction: row;
-        
-     }
+   
      .description{
         background-color: aqua;
         &__grid{
@@ -63,24 +53,11 @@
         justify-content: center;
     }
     .filters__content{
-        width: 332px;
+        width: 342px;
         margin: 3rem auto;
     }
-    .skills__box{
-         
-         justify-content: center;
-         column-gap: 1rem;
-         padding: 1.15rem 1.5rem;
-         flex-direction: row;
-     }
-    .skills__group{
-       display: grid;
-        align-content: flex-start;
-        gap: 1rem;
-        padding: 1rem;
-        grid-template-columns: auto auto auto ;
-       
-    }
+  
+ 
    
 }
 
@@ -170,6 +147,15 @@
         margin: 12px;
         gap: 1rem;
         justify-content: space-between;
+    }
+    .description__reply{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+
     }
 }
 
