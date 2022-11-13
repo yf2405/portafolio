@@ -1,0 +1,21 @@
+.portafolio{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 12px;
+    padding: 8px;
+    
+    &__tools{
+        padding: 8px;
+        margin: 12px;
+        display: flex;
+        flex-direction: row;
+        font-size: 230px;
+    }
+    i{  
+        
+        font-size: 230px;
+    }
+}

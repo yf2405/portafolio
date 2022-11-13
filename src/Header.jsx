@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './main.css';
-import img from './pdf/perfil.png';
+import img from './img/perfil(4).png';
 
 function Header() {
   
@@ -26,13 +26,13 @@ function Header() {
       <h2 className="profile__name">Yerson Correa</h2>
       <h3 className="profile__profession">Web developer</h3>
       <ul className="profile__social">
-        <a href="https://www.instagram.com/" target="_blank" className="profile__social-link">
+        <a href=" https://www.instagram.com/invites/contact/?i=5qqte3eevu2l&utm_content=2khgjqt" target="_blank" className="profile__social-link">
           <i className="ri-instagram-line" />
         </a>
-        <a href="https://www.linkedin.com/" target="_blank" className="profile__social-link">
+        <a href="https://www.linkedin.com/in/yerson-correa-angola-989142191/" target="_blank" className="profile__social-link">
           <i className="ri-linkedin-box-line" />
         </a>
-        <a href="https://github.com/" target="_blank" className="profile__social-link">
+        <a href="https://github.com/yf2405" target="_blank" className="profile__social-link">
           <i className="ri-github-line" />
         </a>
       </ul>
@@ -59,12 +59,12 @@ function Header() {
       </a>
       <div className="profile__buttons-small">
         {/* Insert a real number plus country code*/}
-        <a href="https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!" target="_blank" className="button button__small button__gray">
+        <a href="https://wa.link/nghbeu" target="_blank" className="button button__small button__gray">
           <i className="ri-whatsapp-line" />
         </a>
         {/*Insert your brand name or profile*/}
-        <a href="https://m.me/bedimcode" target="_blank" className="button button__small button__gray">
-          <i className="ri-messenger-line" />
+        <a href="https://t.me/Yersonc24" target="_blank" className="button button__small button__gray">
+          <i className="ri-telegram-line" />
         </a>
       </div>
     </div>
