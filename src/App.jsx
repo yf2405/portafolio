@@ -25,22 +25,10 @@ function App() {
       }
        else {setChange("ri-moon-line change-theme ri-sun-line")}
       }
-    
-    
-    
-    
-      
-  
-      
          
         
        {/*Theme button*/}
       
-     
-   
-   
-   
-  
   return (
     
     <>
