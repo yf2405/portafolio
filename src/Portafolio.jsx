@@ -55,7 +55,7 @@ import { BsTools }from 'react-icons/BS'
     <div className="projects__modal">
       <div>
         <span className="projects__subtitle">responsive</span>
-        <h3 className="projects__title">callenge</h3>
+        <h3 className="projects__title">Retos</h3>
         <a href="https://yf2405.github.io/callenge.github.io/" className="projects__button button button__small">
           <i className="ri-link" />
         </a>
@@ -79,7 +79,7 @@ import { BsTools }from 'react-icons/BS'
     <div className="projects__modal">
       <div>
         <span className="projects__subtitle">Design api web</span>
-        <h3 className="projects__title">api movie privada</h3>
+        <h3 className="projects__title">Yerfe</h3>
         <a href="https://yf2405.github.io/api-movie/" className="projects__button button button__small">
           <i className="ri-link" />
         </a>

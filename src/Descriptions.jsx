@@ -17,11 +17,14 @@ export const Descriptions = () => {
         </div>
       
         <div className='description__reply'>
-              <h2 className='description__title'>A few descriptions of myself</h2>
+              <h2 className='description__title'>Algunas descripciones de mí mismo.</h2>
               <p className='description__paragraph'>
-                I have been studying and preparing for more than a year. I started with the university and I am
-                self-taught. I have also worked on some personal projects that I will showcase on this page soon. I
-                have taken courses primarily on platforms like Platzi and YouTube. "Simply put, I love learning."
+               
+He estado estudiando y preparándome durante más de un año. 
+Comencé con la universidad y soy autodidacta. 
+También he trabajado en algunos proyectos personales que mostraré en esta página pronto. 
+He tomado cursos principalmente en plataformas como Platzi y YouTube. 
+En pocas palabras, amo aprender.
               </p>
    </div>
    </div>

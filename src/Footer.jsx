@@ -4,7 +4,7 @@ import './styles/app.css';
 export function Footer() {
   return (
     <footer className='footer container'>
-      <span className='footer__copy' >Made by Yerson Felipe Correa Angola</span>
+      <span className='footer__copy' >Hecho por Yerson Felipe Correa Angola</span>
     </footer>
     
 
